@@ -1,13 +1,14 @@
 {
-  "name": "evilfreelancer/routeros-api-php",
+  "name": "frzb/routeros-api-client",
   "type": "library",
-  "description": "Modern Mikrotik RouterOS API PHP client for your applications (with Laravel support)",
+  "description": "Modern Mikrotik RouterOS API client for PHP",
   "keywords": [
     "socket-client",
     "psr-4",
     "routeros",
     "mikrotik",
     "laravel",
+    "symfony",
     "plugin",
     "facade"
   ],
@@ -26,8 +27,12 @@
     {
       "name": "Paul Rock",
       "email": "paul@drteam.rocks",
-      "homepage": "http://drteam.rocks/",
+      "homepage": "https://drteam.rocks/",
       "role": "Developer"
+    },
+    {
+      "name": "Mykhailo Shtanko",
+      "email": "fractalzombie@gmail.com"
     }
   ],
   "extra": {
@@ -41,9 +46,9 @@
     }
   },
   "require": {
-    "php": "^7.4|^8.0",
+    "php": ">=8.0",
     "ext-sockets": "*",
-    "spatie/ssh": "^1.8"
+    "frzb/ssh": "^1.0"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^2.16",
